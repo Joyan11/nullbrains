@@ -15,7 +15,7 @@ export const Blog = () => {
       </div>
 
       <div className="center">
-        <div className="blog-card bg-yellow-500">
+        <div className="blog-card bg-yellow-500 ">
           <figure className="h-64">
             <img src={image1} alt="Design" className="card-image" />
           </figure>

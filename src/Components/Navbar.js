@@ -13,18 +13,24 @@ export const Navbar = () => {
         <div className="hidden md:block font-semibold text-gray-700 ">
           <div className="flex items-center  space-x-6">
             {" "}
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-            <AiOutlineSearch className="text-xl cursor-pointer" />
+            <a href="#home" className="hover:text-indigo-500">
+              Home
+            </a>
+            <a href="#features" className="hover:text-indigo-500">
+              Features
+            </a>
+            <a href="#blog" className="hover:text-indigo-500">
+              Blog
+            </a>
+            <a href="#contact" className="hover:text-indigo-500">
+              Contact
+            </a>
+            <AiOutlineSearch className="text-xl cursor-pointer hover:text-indigo-500" />
           </div>
         </div>
         <div className="space-x-6 hidden md:block">
           <a href="#home">Sign in</a>
-          <a
-            href="#home"
-            className="rounded-full px-2 py-2 bg-indigo-500 text-white">
+          <a href="#home" className="signin">
             Sign up
           </a>
         </div>
@@ -46,9 +52,7 @@ export const Navbar = () => {
             <p>Search</p>
             <div className="space-x-3 pt-5 border-t-4">
               <a href="#home">Sign in</a>
-              <a
-                href="#home"
-                className="rounded-full px-3 py-2 bg-indigo-500 text-white">
+              <a href="#home" className="signin">
                 Sign up
               </a>
             </div>

@@ -19,7 +19,11 @@ html {
 }
 
 .blog-card {
-  @apply md:w-3/12 m-3 md:m-4 shadow-lg rounded-2xl cursor-pointer;
+  @apply md:w-3/12 m-3 md:m-4 shadow-lg rounded-2xl cursor-pointer transform hover:scale-100 md:hover:scale-95 transition duration-300 ease-in-out;
+}
+
+.team-card {
+  @apply flex flex-col items-center md:w-2/12 m-3 md:m-7 shadow-lg py-2;
 }
 
 .tag {
@@ -40,4 +44,8 @@ html {
 
 .list {
   @apply bg-indigo-500 rounded-full h-5 w-5 flex items-center justify-center;
+}
+
+.signin {
+  @apply rounded-full px-3 py-2 bg-indigo-500 text-white hover:bg-indigo-700 transition duration-300;
 }

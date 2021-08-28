@@ -18,7 +18,7 @@ export const Home = () => {
           </small>
           <a
             href="#home"
-            className="rounded-full px-8 py-3 bg-indigo-600 text-white font-semibold">
+            className="rounded-full px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold transition duration-300">
             Purchase Now
           </a>
           <small className="pt-3 text-indigo-500">Learn more</small>

@@ -7,7 +7,7 @@ export const Team = () => {
   const renderedList = React.Children.toArray(
     team.map((person) => {
       return (
-        <div className="flex flex-col items-center md:w-2/12 m-3 md:m-7 shadow-lg py-2">
+        <div className="team-card hover:shadow-xl">
           <img
             src={person.image}
             alt={person.name}

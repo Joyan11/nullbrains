@@ -21,7 +21,9 @@ export const Home = () => {
             className="rounded-full px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold transition duration-300">
             Purchase Now
           </a>
-          <small className="pt-3 text-indigo-500">Learn more</small>
+          <small className="pt-3 text-indigo-500 cursor-pointer">
+            Learn more
+          </small>
         </div>
         <div className="pt-28">
           <p className="uppercase text-xs font-bold">

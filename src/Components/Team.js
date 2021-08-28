@@ -18,10 +18,10 @@ export const Team = () => {
             <p className="text-indigo-500">{person.title}</p>
             <div className="flex space-x-2 justify-center items-center">
               <a>
-                <AiOutlineTwitter className="text-gray-400 text-2xl" />
+                <AiOutlineTwitter className="text-gray-400 text-2xl cursor-pointer" />
               </a>
               <a>
-                <AiFillGithub className="text-gray-400 text-2xl" />
+                <AiFillGithub className="text-gray-400 text-2xl cursor-pointer" />
               </a>
             </div>
           </div>

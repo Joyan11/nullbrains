@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <nav className="sticky top-0 z-10 bg-white relative">
       <div className=" md:container md:mx-auto px-2 py-6 flex flex-wrap justify-between border-solid border-coolgray-300 border-b-2 items-center">
-        <a href="#home" className="font-extrabold text-2xl ">
+        <a href="#home" className="font-extrabold text-3xl md:text-2xl ">
           nullbrains<span className="text-indigo-700">.</span>
         </a>
         <div className="hidden md:block font-semibold text-gray-700 ">
@@ -17,7 +17,7 @@ export const Navbar = () => {
             <a href="#features">Features</a>
             <a href="#blog">Blog</a>
             <a href="#contact">Contact</a>
-            <AiOutlineSearch className="text-xl" />
+            <AiOutlineSearch className="text-xl cursor-pointer" />
           </div>
         </div>
         <div className="space-x-6 hidden md:block">
@@ -30,7 +30,7 @@ export const Navbar = () => {
         </div>
         <div className="block md:hidden">
           <GiHamburgerMenu
-            className="text-2xl"
+            className="text-3xl"
             onClick={() => setNavbar(() => !navbar)}
           />
         </div>

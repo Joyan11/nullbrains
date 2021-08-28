@@ -1,13 +1,43 @@
-body {
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+.card {
+  @apply md:w-3/12 flex flex-col items-center text-center bg-gray-100 px-5 py-10 space-y-4 rounded-2xl m-5 p-2;
+}
+
+.blog-card {
+  @apply md:w-3/12 m-3 md:m-4 shadow-lg rounded-2xl cursor-pointer;
+}
+
+.tag {
+  @apply absolute -top-3 rounded-full px-5 py-1 bg-white text-xs text-indigo-500 uppercase;
+}
+
+.tag2 {
+  @apply absolute -top-3 rounded-full px-5 py-1 text-xs uppercase;
+}
+
+.card-image {
+  @apply w-full h-full object-cover object-center;
+}
+
+.center {
+  @apply flex flex-wrap items-center justify-center flex-col md:flex-row;
+}
+
+.list {
+  @apply bg-indigo-500 rounded-full h-5 w-5 flex items-center justify-center;
 }

@@ -53,7 +53,7 @@ export const Blog = () => {
             <span className="tag">Entertainment</span>
             <h6 className="text-4xl font-bold text-white">Gaming Evolution</h6>
             <p className="text-white">
-              Learn about the evolution of gaming and how it started an
+              Learn about the evolution of gaming and how it started a
               revolution
             </p>
           </div>

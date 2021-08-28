@@ -89,7 +89,7 @@ export const Blog = () => {
             <img src={image5} alt="Design" className="card-image" />
           </figure>
           <div className="p-5 relative space-y-1">
-            <span className="tag2 bg-indigo-500 text-white ">Food</span>
+            <span className="tag2 bg-indigo-500 text-white ">Resources</span>
             <h6 className="text-xl font-bold ">A Design Mind-set</h6>
             <p className="text-gray-500">
               What does it mean to have a design mind-set? Learn how to improve
